@@ -1,0 +1,517 @@
+body{
+    direction: ltr;
+     font-family: 'ProximaNovaT', sans-serif;
+
+}
+
+.container {
+    height: auto;
+    margin: 0 auto;
+        /*background: #fcde2a;*/
+
+}
+
+.MenuSection{
+    background:#fcde2a;
+    width: 100%;
+    background-size: cover;
+    height: 120px;
+  }
+ .logo{
+    padding-left: 277px;
+    float: left;
+     margin-top: 38px;
+ 
+}
+.menuList{
+    width: 50%;
+    float: right; 
+    margin-top: 39px;
+ 
+}
+
+.menuList ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 6%;
+ }
+.menuList ul li a{
+     font-size: 13px;
+     text-decoration: none;
+        color: #8d4525;
+
+}
+.menu ul{
+    text-align: right;
+}
+.menuList ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.Menu{
+     padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+     height: auto;
+    padding: 0px 0px 100px 0px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    min-height: 805px;
+ background-size: 100%;
+    margin-top:0px;
+}
+ 
+.contactForm input[type="text"] {
+    box-sizing: border-box;
+    border: 2px solid #8d4525;
+    border-radius: 50px;
+            color: #8d4525;
+background: #fcde2a;
+    padding: 4px 15px;
+} 
+.clear{
+    clear: both;
+}
+
+.HeroSection{
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    width: 100%;
+    height: 695px;
+    margin-top: 0px;
+}
+.title{
+    text-align: center;
+    color: white;
+  font-weight:100;
+    font-size: 80.79px;
+    padding-top: 263px;
+        margin-top:0px;
+font-family:ProximaNovaT;
+    
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.Subtitle{
+     color: white;
+    font-size: 32.45px;
+    margin-left: 258px;
+     font-weight: 600;
+font-family:ProximaNovaT;
+
+}
+ 
+
+.RESERVATION {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.RESERVATION a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+font-family:ProximaNovaT;
+
+     box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background-color: #8d4525;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 80px;
+}
+
+/* second Section */
+
+ 
+ 
+.Today span{
+     text-decoration: none;
+         color: #8a4625;
+
+}
+
+.TODAYSPeCIALS{
+            margin-top: 56px;
+        text-align: center;
+
+
+}
+.Today {
+    display: inline;
+    margin: 65px 0px;
+      font-weight: bold;
+    font-size:27.43px;
+        text-align: center;
+}
+
+.Dish>div {
+    display: inline-block;
+    width: 260px;
+    margin: 0px 10px;
+    padding-top: 52px;
+ }
+ 
+ 
+.tax {
+    font-size: 24.57px;
+    float:right;
+ }
+
+.inner{
+    font-size:14.93px;
+    
+}
+.parg{
+    color: #5f4d44;
+    font-size:14 px;
+font-family:ProximaNovaT;
+
+}
+.name{
+    color: #8a4625;
+    font-size: 14.93px;
+    font-weight: bold;
+font-family:ProximaNovaT;
+
+}
+.span{
+    font-size: 14px;
+    color:#5f4d44;
+font-family:ProximaNovaT;
+
+}
+.righside{
+    float: right;
+    width: 44%;
+    margin-top: 110px;
+    margin-right: 287px;
+}
+.leftside{
+    float: left;
+         margin-top: 110px;
+  
+}
+
+.righside span{
+    text-decoration: none;
+         color: #8a4625;
+    font-size: 27.43px;
+    font-weight: bold;
+}
+
+ .righside a:hover{
+    text-decoration: underline #fcde2a;
+ }
+
+.righside p{
+  font-size: 14.93px;
+font-family:ProximaNovaT;
+
+    
+}
+.clear {
+    clear: both;
+}
+
+ 
+
+.leftsection{
+    float: left;
+     margin-top: 110px;
+        padding-left: 206px;
+        width: 44%;
+
+
+}
+.righsection{
+    float: right;
+ 
+         margin-top: 110px;
+  
+}
+
+.leftsection span{
+    text-decoration: none;
+         color: #8a4625;
+    font-size: 27.43px;
+    font-weight: bold;
+}
+
+ .leftsection a:hover{
+    text-decoration: underline #fcde2a;
+ }
+
+.leftsection p{
+  font-size: 14.93px;
+    
+}
+.clear {
+    clear: both;
+}
+.MenuListGrid{
+  background-color: #f4f4f4;  
+    height: 1175px;
+}
+.MenuListGrid .MenuList {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+    margin-right:  20%;
+        margin-left:  20%;
+margin-top: 0px;
+    
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.MenuListGrid .post img{
+    width:163px;
+    height: 163px;
+}
+.MenuList .post-content {
+    width: 70%;
+    display: inline-block;
+}
+
+.MenuList .post img{
+    vertical-align: top;
+}
+.MenuList .post-content p {
+    font-size: 14  px;
+     display: block;
+    color: #5f4d44;
+font-family:ProximaNovaT;
+
+
+}
+ .post-content {
+     
+         margin-left: 1xp;
+     }
+ 
+.post{
+    background-color: white;
+}
+.MenuList a{
+    text-decoration: none;
+         color: #8a4625;
+    font-size: 27.43px;
+     font-weight: bold;
+font-family:ProximaNovaT;
+
+}
+
+
+ .Menuetitle span{
+    text-decoration: none;
+         color: #8a4625;
+    font-size: 27.43px;
+     font-weight: bold;
+font-family:ProximaNovaT;
+
+}
+ .MenuList span:hover{
+ font-family:ProximaNovaT;
+
+    text-decoration: underline #fcde2a;
+ }
+ 
+.Menuetitle{
+    padding-top: 100px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+.LoadMore{
+    color: #8a4625;
+     text-align: center;
+margin-top: 55px;
+ }
+.LoadMore a{
+    font-size: 14px;
+}
+ 
+.container {
+    margin: 0 auto;
+}
+.TESTIMONIALS{
+    background-image: url(../img/TESTIMONIALS.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px; 
+    height: 554px;
+    text-align: center;
+    padding-top: 99px;
+}
+
+
+.TESTIMONIALS span{
+    padding-top: 100px;
+    padding-bottom: 85px;
+    text-align: center;
+        font-size: 27.43px;
+
+            color:#8a4625;
+
+}
+
+  
+.container {
+     height: auto;
+    margin: 0 auto;
+}
+
+.TESTIMONIALS p{
+     font-size:36px;
+    font-weight: lighter;
+font-family:ProximaNovaT;
+    text-align: center;
+    padding-top: 111px;
+
+}
+
+ 
+.MAKERESERVATION{
+    background-image: url(../img/RESERVATION.png);
+       width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 888px;
+    margin-top: 0px;
+    height: 896px;
+    padding-top: 85px;
+    text-align: center;
+}
+
+.MAKERESERVATION span{
+    text-align: center;
+    color: white;
+     font-size: 27.43px;
+    font-weight: bold;
+ font-family:ProximaNovaT;
+    margin-bottom: 73px;
+
+
+}
+.FormRESERVATION input, textarea {
+  box-sizing: border-box;
+    border: 2px solid #fcde2a;
+    border-radius: 32px;
+            color: #8d4525;
+background: white;
+    padding: 4px 15px;
+    font-size:14.93px;
+    font-weight: bold;
+    width: 527px;
+    height: 57px;
+     padding: 12px 20px;
+font-family:ProximaNovaT;
+  margin: 8px 0;
+}
+
+           
+
+.FormRESERVATION input[type="text"], textarea ,input[type="number"],input[type="email"] {
+ text-align: center;
+
+}
+
+::placeholder{
+                color: #8a4625;
+    font-weight: bold;
+    font-size: 14.93px;
+                  vertical-align:19px;
+    
+}
+.FormRESERVATION input[type="submit"]{
+   box-sizing: border-box;
+    border: 2px solid #fcde2a;
+    border-radius: 32px;
+            color: white;
+background: #8d4525;
+    padding: 4px 15px;
+    font-size:14.93px;
+    font-weight: bold;
+    width: 527px;
+    height: 57px;
+     padding: 12px 20px;
+  margin: 8px 0;   
+font-family:ProximaNovaT;
+
+}
+.FormRESERVATION {
+  border-radius: 5px;
+   padding: 20px;
+    text-align: center;
+}
+textarea{
+width:525px;
+height:200px;
+}
+
+.footer{
+    background-color: #ffffff;
+    
+}
+.left{
+    padding-left: 302px;
+        display: inline-block;
+
+}
+.footer p{
+    font-size: 24.5px;
+    color:  #8d4525;
+    font-weight: 700;
+font-family:ProximaNovaT;
+
+}
+.footer span{
+    font-size: 32.71px;
+        color:  #8d4525;
+font-family: Titillium Web;
+
+    font-weight: bold;
+    
+}
+.right {
+     height: auto;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.right a {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+     color: #8d4525;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    line-height: 40px;
+    font-size: 28px;
+    margin-right: 15px;
+font-family:ProximaNovaT;
+
+ 
+}
+.right{
+    float: right;
+    padding-right: 268px;
+}
+span.bar {
+    width: 90px;
+    height: 4px;
+    display: block;
+    background: #fcde2a;
+    margin-top: 10px;
+    text-align: center;
+        margin-left: 903px;
+
+}
+
